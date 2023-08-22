@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "文字数かぞえるくん",
+  "version": "1.0",
+  "description": "テキストエリアに入力されている文字数を数えます",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "128": "icon.png"
+  }
+}
